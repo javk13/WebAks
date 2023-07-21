@@ -30,7 +30,7 @@ spec:
             claimName: ejemplo-pv-claim
       containers:
       - name: nginx-aks
-        image: nginx:latest
+        image: javk13.azurecr.io/web_aks:casopractico2
         ports:
         - containerPort: 80
         volumeMounts:
