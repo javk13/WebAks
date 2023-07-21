@@ -18,7 +18,7 @@ spec:
   selector:
     matchLabels:
       app: nginx-aks
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
